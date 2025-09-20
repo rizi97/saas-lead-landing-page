@@ -3,23 +3,23 @@ import type { FAQItem } from './types';
 
 export const FAQ_DATA: FAQItem[] = [
   {
-    question: "What kind of ideas are you looking for?",
-    answer: "We are interested in Micro-SaaS ideas that solve a specific, niche problem. We love products with a clear path to profitability, subscription-based models, and a passionate founder behind them."
-  },
-  {
-    question: "What happens after I submit my idea?",
-    answer: "Our team will review your submission within 5-7 business days. If your idea aligns with our investment thesis, we will reach out to you via the email you provided to schedule a follow-up call."
+    question: "What happens after I submit my product for review?",
+    answer: "Our team will review your submission within 5-7 business days. If your product aligns with our investment thesis, we will reach out to you via email and schedule a discovery call to discuss further."
   },
   {
     question: "Is my intellectual property safe?",
-    answer: "Absolutely. We treat all submissions with the strictest confidence. We will not share your idea outside our internal review team without your explicit permission. We are happy to sign an NDA upon request if we proceed."
+    answer: "Absolutely. We treat all submissions with the strictest confidence. We will not share your product outside our internal review team without your explicit permission. We are happy to sign an NDA upon request if we proceed."
   },
   {
-    question: "What if my project is already live?",
-    answer: "That's great! We are interested in projects at all stages, from just an idea to a fully-fledged product with existing customers. Please provide as much detail as possible in the form, including any relevant metrics."
+    question: "What if I have an idea, not a live product?",
+    answer: "Since our strategy is to acquire products outright, we will not be able to fund your idea. But if you have high conviction in your idea, we leave you with this: Build Fast. Deploy Fast. Get Customer Feedback. Repeat. Also, in the wise words of Mr. Warren Buffett: “Think about delighting your customers”."
   },
   {
     question: "Do I need to pay any fees?",
-    answer: "No, there are absolutely no fees for submitting your idea. Our goal is to partner with or acquire promising projects, not to charge founders for a review."
+    answer: "No, there are absolutely no fees for submitting your product. Our goal is to acquire promising projects, not to charge founders for a review."
+  },
+  {
+    question: "Where is your company based?",
+    answer: "We’re based in Pakistan. And while that may not ring a bell of trust, we believe transparency and honesty leads to better outcomes."
   }
 ];

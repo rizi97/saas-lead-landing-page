@@ -19,24 +19,31 @@ const Features: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white">What We're Looking For</h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">We focus on ideas with strong fundamentals and clear potential for growth.</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <FeatureCard 
             icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>}
-            title="Niche Problem Solving"
+            title="Niche Market"
           >
-            Your idea should solve a specific, painful problem for a well-defined audience. We love solutions for underserved markets.
+            The product solves for a specific, painful problem for a well-defined audience.
           </FeatureCard>
           <FeatureCard 
             icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m-15.357-2a8.001 8.001 0 0115.357-2m0 0H15" /></svg>}
-            title="Recurring Revenue"
+            title="Recurring Revenues"
           >
-            We prioritize subscription-based models (SaaS) that provide predictable revenue streams and high customer lifetime value.
+            We prioritize SaaS based business models with predictable revenue streams and
+sticky customers.
+          </FeatureCard>
+          <FeatureCard 
+            icon={<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" role="img"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16l5-7 4 3 6-6" /><path d="M20 4v6h-6" /> <circle cx="17" cy="19" r="1" fill="currentColor" stroke="none"/><circle cx="20" cy="16" r="1" fill="currentColor" stroke="none"/><path d="M19.2 18.2l-2-2" /></g></svg>}
+            title="High Margins"
+          >
+            The product has high gross margins and is currently profitable.
           </FeatureCard>
           <FeatureCard 
             icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" /></svg>}
-            title="Early Stage Potential"
+            title="Early-Stage Potential"
           >
-            Whether you have just an idea, a working MVP, or early traction, we're interested. We love to get involved early and help shape success.
+            The product has potential for growth and can dominate its niche.
           </FeatureCard>
         </div>
       </div>

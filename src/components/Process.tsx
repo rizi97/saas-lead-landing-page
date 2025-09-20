@@ -16,7 +16,7 @@ const Process: React.FC = () => {
     <section id="process" className="py-20 bg-gray-800/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">Our Simple Process</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">Our Process is as simple as 1, 2, 3.</h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">We've made it as easy as possible to share your vision with us.</p>
         </div>
         <div className="max-w-3xl mx-auto">
@@ -24,14 +24,16 @@ const Process: React.FC = () => {
             {/* Dotted line connector */}
             <div className="absolute left-4 top-4 bottom-4 w-px bg-gray-700 border-l-2 border-dashed border-gray-600"></div>
             <div className="space-y-12">
-              <ProcessStep number="1" title="Submit Your Idea">
-                Fill out our straightforward submission form with the details of your project or idea. The more detail, the better!
+              <ProcessStep number="1" title="Submit your Product for review">
+                Fill out a straightforward form. Try to be as detailed as possible.
               </ProcessStep>
               <ProcessStep number="2" title="Internal Review">
-                Our expert team will carefully review your submission, evaluating its market potential, technical feasibility, and alignment with our portfolio.
+                Our investment team will review your submission and evaluate product
+quality, technical feasibility, and strategic alignment.
               </ProcessStep>
-              <ProcessStep number="3" title="Receive Feedback">
-                We'll get back to you within 5-7 business days. If there's a potential fit, we'll schedule a discovery call to learn more.
+              <ProcessStep number="3" title="Decision">
+                We won’t leave you hanging. We’ll send you a response in 5-7 business days.
+We’ll schedule a discovery call if the product matches our criteria.
               </ProcessStep>
             </div>
           </div>
