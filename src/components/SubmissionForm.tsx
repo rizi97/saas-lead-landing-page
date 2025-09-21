@@ -1,4 +1,6 @@
 import React from 'react';
+import { Script } from 'vm';
+import TallyForm from "./TallyForm";
 
 const SubmissionForm: React.FC = () => {
   return (
@@ -14,19 +16,9 @@ const SubmissionForm: React.FC = () => {
               Note: You may need to scroll within the embedded form to see all fields.
             </p>
           </div>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeszoU8Y2alEkhGg6fDzYuHiU3CvSZe4ONY9f8JyxLzTkrRVw/viewform?embedded=true"
-            width="100%"
-            height="850"
-            frameBorder="0"
-            marginHeight={0}
-            marginWidth={0}
-            title="SaaS Idea Submission Form"
-            className="block"
-            aria-label="SaaS Idea Submission Form"
-          >
-            Loading…
-          </iframe>
+          
+          <TallyForm />
+
         </div>
       </div>
     </section>
