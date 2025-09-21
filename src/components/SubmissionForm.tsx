@@ -11,12 +11,24 @@ const SubmissionForm: React.FC = () => {
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">Please submit the form below to start the process.</p>
         </div>
         <div className="max-w-4xl mx-auto bg-gray-800/50 rounded-xl border border-gray-700/50 overflow-hidden shadow-2xl shadow-brand-teal-900/20">
-          <div className="p-4 text-center bg-gray-900/30">
+          {/* <div className="p-4 text-center bg-gray-900/30">
             <p className="text-sm text-gray-400">
               Note: You may need to scroll within the embedded form to see all fields.
             </p>
-          </div>
-          
+          </div> */}
+          {/* <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeszoU8Y2alEkhGg6fDzYuHiU3CvSZe4ONY9f8JyxLzTkrRVw/viewform?embedded=true"
+            width="100%"
+            height="850"
+            frameBorder="0"
+            marginHeight={0}
+            marginWidth={0}
+            title="SaaS Idea Submission Form"
+            className="block"
+            aria-label="SaaS Idea Submission Form"
+          >
+            Loading…
+          </iframe> */}
           <TallyForm />
 
         </div>
