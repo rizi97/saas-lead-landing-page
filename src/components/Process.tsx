@@ -17,7 +17,7 @@ const Process: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white">Our Process is as simple as 1, 2, 3.</h2>
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">We've made it as easy as possible to share your vision with us.</p>
+          {/* <p className="stext-gray-400 mt-4 max-w-2xl mx-auto">We've made it as easy as possible to share your vision with us.</p> */}
         </div>
         <div className="max-w-3xl mx-auto">
           <div className="relative">

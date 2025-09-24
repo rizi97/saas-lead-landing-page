@@ -14,8 +14,9 @@ const Header: React.FC = () => {
           </a>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <a href="#features" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Features</a>
+          <a href="#criteria" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Criteria</a>
           <a href="#process" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Process</a>
+          <a href="#team" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Team</a>
           <a href="#faq" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">FAQ</a>
         </nav>
         <a href="#submit-idea" className="hidden md:inline-block bg-brand-teal-500 hover:bg-brand-teal-600 text-white font-bold py-2 px-4 rounded-lg transition-transform duration-300 hover:scale-105">
