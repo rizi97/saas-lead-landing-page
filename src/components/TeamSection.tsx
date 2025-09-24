@@ -1,6 +1,6 @@
 import React from "react";
 import rizwanImg from "../assets/team/rizwan.jpeg";
-// import asherImg from "../assets/team/asher.jpeg";
+import asherImg from "../assets/team/asher.jpg";
 
 type Member = {
   name: string;
@@ -19,13 +19,13 @@ const defaultMembers: Member[] = [
   {
     name: "Muhammad Asher Kamal",
     role: "Co-founder",
-    bio: "Creates human-centered designs and delightful micro-interactions.",
-    imageUrl: rizwanImg,
+    bio: "An engineer turned entrepreneur, Muhammad Asher Kamal is the founder of Bumper Wholesale. At Bumper Wholesale, he is building Pakistan's first Membership Wholesale Club. As the co-founder of 'Startup Name', he aims to build a dominant serial acquirer of software in the MENAP region as the chief capital allocator.",
+    imageUrl: asherImg,
   },
   {
     name: "Muhammad Rizwan Aslam",
     role: "Co-founder",
-    bio: "Creates human-centered designs and delightful micro-interactions.",
+    bio: "A software engineer turned tech entrepreneur and web developer, Muhammad Rizwan helps people and businesses build practical solutions using AI and web technologies. He has 10+ years of experience in WordPress, Shopify, web development, and creating fast, user-friendly websites.",
     imageUrl: rizwanImg,
   },
 ];
@@ -74,13 +74,13 @@ export default function TeamSection({
                   Message
                 </button> */}
 
-                <a
+                {/* <a
                   href="#"
                   className="text-sm text-gray-500 hover:text-gray-700 underline"
                   onClick={(e) => e.preventDefault()}
                 >
                   View profile
-                </a>
+                </a> */}
               </div>
             </div>
 
