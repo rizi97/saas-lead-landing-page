@@ -3,6 +3,3 @@
 @tailwind utilities;
 
 
-.logo-img {
-    filter: grayscale(100%) invert(100%);   
-}

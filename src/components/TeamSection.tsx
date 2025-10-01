@@ -19,7 +19,7 @@ const defaultMembers: Member[] = [
   {
     name: "Muhammad Asher Kamal",
     role: "Co-founder",
-    bio: "An engineer turned entrepreneur, Muhammad Asher Kamal is the founder of Bumper Wholesale. At Bumper Wholesale, he is building Pakistan's first Membership Wholesale Club. As the co-founder of 'Startup Name', he aims to build a dominant serial acquirer of software in the MENAP region as the chief capital allocator.",
+    bio: "An engineer turned entrepreneur, Muhammad Asher Kamal is the founder of Bumper Wholesale. At Bumper Wholesale, he is building Pakistan's first Membership Wholesale Club. As the co-founder of Hyprlynx Capital, he aims to build a dominant serial acquirer of software in the MENAP region as the chief capital allocator.",
     imageUrl: asherImg,
   },
   {

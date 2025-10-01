@@ -13,6 +13,7 @@ const Header: React.FC = () => {
               alt="hyprlynx-logo"
               className="h-20 object-cover logo-img"
             />
+            Hyprlynx Capital
           </a>
         </div>
         <nav className="hidden md:flex space-x-8">
