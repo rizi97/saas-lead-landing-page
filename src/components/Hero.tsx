@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gray-900 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0,150,136,0.3),rgba(255,255,255,0))]"></div>
       <div className="container mx-auto px-6 relative z-10">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 tracking-tight">
-          We buy Micro-SaaS
+          We Buy Micro-SaaS
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
           We give founders a quick and straightforward exit with our simple direct process. If

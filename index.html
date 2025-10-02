@@ -19,8 +19,14 @@
       font-size: 15px;
       letter-spacing: 1px;
     }
+
+    @media (max-width: 567px) {
+      header a.logo {
+        font-size: 13px;
+      }
+    }
   </style>
-  <body class="bg-gray-900 text-gray-200 font-sans antialiased">
+  <body class="bg-gray-900 text-gray-200 font-sans antialiased overflow-x-hidden">
     <div id="root"></div>
     <!-- ⚡ Vite will auto inject scripts -->
     <script type="module" src="/src/index.tsx"></script>
