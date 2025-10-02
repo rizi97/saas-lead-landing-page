@@ -7,11 +7,11 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-700/50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold text-white">
-          <a href="#" className="flex items-center gap-2 uppercase">
+          <a href="#" className="flex text-lg items-center gap-2 uppercase">
             <img
               src={logoImg}
               alt="hyprlynx-logo"
-              className="h-20 object-cover logo-img"
+              className="h-12 object-cover logo-img"
             />
             Hyprlynx Capital
           </a>
