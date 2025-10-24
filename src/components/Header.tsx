@@ -24,7 +24,8 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex space-x-8">
             <a href="#criteria" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Criteria</a>
             <a href="#process" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Process</a>
-            <a href="#team" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Team</a>
+            <a href="#companies" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Companies</a>
+            {/* <a href="#team" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">Team</a> */}
             <a href="#faq" className="text-gray-300 hover:text-brand-teal-400 transition-colors duration-300">FAQ</a>
           </nav>
 
@@ -64,7 +65,8 @@ const Header: React.FC = () => {
         <nav className="flex flex-col space-y-6 px-6 text-lg">
           <a href="#criteria" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-brand-teal-400 transition">Criteria</a>
           <a href="#process" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-brand-teal-400 transition">Process</a>
-          <a href="#team" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-brand-teal-400 transition">Team</a>
+          <a href="#companies" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-brand-teal-400 transition">Companies</a>
+          {/* <a href="#team" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-brand-teal-400 transition">Team</a> */}
           <a href="#faq" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-brand-teal-400 transition">FAQ</a>
 
           <a href="#submit-idea" onClick={() => setIsOpen(false)} className="mt-4 bg-brand-teal-500 hover:bg-brand-teal-600 text-white font-bold py-2 px-4 rounded-lg transition-transform duration-300 hover:scale-105 text-center">

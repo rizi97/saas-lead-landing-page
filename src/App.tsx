@@ -9,6 +9,7 @@ import SubmissionForm from './components/SubmissionForm';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import TeamSection from './components/TeamSection';
+import BuildWithUs from './components/BuildWithUs';
 
 const App: React.FC = () => {
   return (
@@ -20,7 +21,8 @@ const App: React.FC = () => {
         <Process />
         <WhySell />
         <SubmissionForm />
-        <TeamSection />
+        <BuildWithUs />
+        {/* <TeamSection /> */}
         <FAQ />
       </main>
       <Footer />

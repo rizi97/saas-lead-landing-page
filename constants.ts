@@ -20,6 +20,6 @@ export const FAQ_DATA: FAQItem[] = [
   },
   {
     question: "Where is your company based?",
-    answer: "We’re based in Pakistan. And while that may not ring a bell of trust, we believe transparency and honesty leads to better outcomes."
+    answer: "We're based in Pakistan. Home to some of the fastest growing IT services companies in the region and globally."
   }
 ];
