@@ -37,6 +37,7 @@ export default function BuildWithUs({
     </section>
 
     <section className="py-12 px-6 pt-[0.5rem] bg-white">
+      <div className="max-w-6xl mx-auto">
         {showMarquee && (
           <div className="mt-10 overflow-hidden relative">
             <div className="flex whitespace-nowrap w-max animate-marquee-smooth">
@@ -63,6 +64,7 @@ export default function BuildWithUs({
             </div>
           </div>
         )}
+      </div>
 
       <style>{`
         @keyframes marquee-smooth {
