@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const TallyForm = () => {
+const ServiceForm = () => {
   useEffect(() => {
     if (window.Tally) {
       window.Tally.loadEmbeds();
@@ -9,7 +9,7 @@ const TallyForm = () => {
 
   return (
     <iframe
-      data-tally-src="https://tally.so/embed/n9VQQE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+      data-tally-src="https://tally.so/embed/m6bMdo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       loading="lazy"
       width="100%"
       height="400"
@@ -21,4 +21,4 @@ const TallyForm = () => {
   );
 };
 
-export default TallyForm;
+export default ServiceForm;

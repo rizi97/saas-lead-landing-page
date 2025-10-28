@@ -10,6 +10,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import TeamSection from './components/TeamSection';
 import BuildWithUs from './components/BuildWithUs';
+import TrustedCompanies from './components/TrustedCompanies';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <WhySell />
         <SubmissionForm />
         <BuildWithUs />
+        <TrustedCompanies />
         {/* <TeamSection /> */}
         <FAQ />
       </main>
